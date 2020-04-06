@@ -1,0 +1,19 @@
+.container {
+    width: auto;
+}
+#main-content {
+    width: auto;
+    padding-left: ($spacer * .5) !important;
+    padding-right: ($spacer * .5) !important;
+}
+
+.mt-0 {
+    margin-top: 40px !important;
+  }
+  .ml-1 {
+    margin-left: ($spacer * .25) !important;
+  }  
+
+@media (min-width: 600px) {
+    width: auto;
+}
