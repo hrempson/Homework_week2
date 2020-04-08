@@ -1,36 +1,29 @@
-.container {
-    width: 600px;
-    padding: 30px
-}
-#main-content {
-    width: auto;
-    padding-left: ($spacer * .5) !important;
-    padding-right: ($spacer * .5) !important;
-}
-
-.mt-0 {
-    margin-top: 40px !important;
-  }
-  .ml-1 {
-    margin-left: ($spacer * .25) !important;
-  }  
-
-#heather {
-  float: inline-start;
-}
 
 body {
   background: url('https://unsplash.com/photos/sKJ7zSylUao/download?force=true') no-repeat center center fixed;
-  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.navbar-brand {
+  background-color: teal;
+  padding: 10px 20px;
+  margin: -.5rem;
+}
+
+.navbar{
+  pading top: 0px;
+  padding bottom: 0px;
 }
 h1 {
   color: teal;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: x-large;
   padding: 0px;
-
-
 }
-@media (min-width: 600px) {
-    width: 600px;
+
+.img-thumbnail {
+  width: 50%;
+  max-width: 400px;
+  height: 400px;
 }
+
