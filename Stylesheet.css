@@ -1,25 +1,38 @@
 html {
   font-size: 16px;
 }
-
 body {
   background: url('https://unsplash.com/photos/sKJ7zSylUao/download?force=true') no-repeat center center fixed;
   background-size: cover;
 }
 
+
+
 body .container {
   background-color: teal;
   border: teal;
-  max-width: 100%;
   margin: -.5rem;
+  width: auto;
+  margin-left: 3%;
 }
 
+
+.custom-collapse {
+  margin-right: 3%;
+}
 .navbar-brand {
   padding-top: 10px;
   padding-bottom: 20px;
   margin: 0rem;
   
 }
+
+.heather-nav {
+  display: inline !important;
+  margin: 10px;
+}
+
+
 
 h1 {
   color: teal;
@@ -29,9 +42,9 @@ h1 {
 }
 
 .img-thumbnail {
-  width: 50%;
-  max-width: 400px;
-  height: 400px;
+  width: 25%;
+  max-width: 200px;
+  height: 300px;
 }
 
 footer {
@@ -44,9 +57,22 @@ footer {
   font-size: smaller;
 }
 
-@media screen (max-width: 780px) {
-  nav{
-    margin-left;
+@media screen and (max-width: 780px) {
+  .navbar-brand {
+    margin: 0 auto;
   }
+  body .container {
+    background-color: teal;
+    border: teal;
+    margin: 0;
+    width: 100%;
+  }
+  .custom-collapse {
+    text-align: center;
+    margin: auto;
+  }
+}
 
+@media screen and (min-width: 781px) {
 
+}
