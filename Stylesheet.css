@@ -42,10 +42,23 @@ h1 {
   padding: 0px;
 }
 
-.img-thumbnail {
+.img-thumbnail, col-md-6 {
+  max-width: 200px;
+  height: 300px;
+  float: left;
+  margin-bottom: 20px;
+}
+
+#profimg {
   width: 25%;
   max-width: 200px;
   height: 300px;
+  float: left;
+}
+
+
+p { 
+  display: inline;
 }
 
 footer {
