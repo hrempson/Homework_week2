@@ -46,6 +46,14 @@ col-md-6 {
   float: left;
   margin-bottom: 20px;
 }
+.imagetxt {
+  position: absolute;
+  background-color: teal;
+  color: white;
+  width: 200px;
+  text-align: center;
+  top: 20px;
+}
 
 #profimg {
   width: 25%;
