@@ -1,12 +1,11 @@
 html {
   font-size: 16px;
 }
+
 body {
   background: url('https://unsplash.com/photos/sKJ7zSylUao/download?force=true') no-repeat center center fixed;
   background-size: cover;
 }
-
-
 
 body .container {
   background-color: teal;
@@ -15,7 +14,6 @@ body .container {
   width: auto;
   margin-left: 3%;
 }
-
 
 .custom-collapse {
   margin-right: 3%;
@@ -32,8 +30,6 @@ body .container {
   display: inline !important;
   margin: 10px;
 }
-
-
 
 h1 {
   color: teal;
@@ -54,11 +50,6 @@ h1 {
   max-width: 200px;
   height: 300px;
   float: left;
-}
-
-
-p { 
-  display: inline;
 }
 
 footer {
@@ -85,8 +76,4 @@ footer {
     text-align: center;
     margin: auto;
   }
-}
-
-@media screen and (min-width: 781px) {
-
 }
