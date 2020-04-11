@@ -18,6 +18,7 @@ body .container {
 .custom-collapse {
   margin-right: 3%;
 }
+
 .navbar-brand {
   padding-top: 10px;
   padding-bottom: 20px;
@@ -38,7 +39,8 @@ h1 {
   padding: 0px;
 }
 
-.img-thumbnail, col-md-6 {
+.img-thumbnail,
+col-md-6 {
   max-width: 200px;
   height: 200px;
   float: left;
@@ -58,7 +60,7 @@ footer {
   border-top: teal 5px solid;
   padding-top: 40px;
   padding-bottom: 40px;
-  color: white; 
+  color: white;
   font-size: smaller;
 }
 
@@ -66,16 +68,19 @@ footer {
   .navbar-brand {
     margin: 0 auto;
   }
+
   body .container {
     background-color: teal;
     border: teal;
     margin: 0;
     width: 100%;
   }
+
   .custom-collapse {
     text-align: center;
     margin: auto;
   }
+
   #profimg {
     width: 100%;
   }
