@@ -35,9 +35,17 @@ body .container {
   color: teal;
 }
 .githubrepo {
-  text-align: justify;
+  color: teal
+}
+.githubbtn {
+  margin-left: 15px;
+  vertical-align: middle;
 }
 
+.btnhover:hover {
+  background-color: whitesmoke;
+  color: blueviolet;
+}
 h1 {
   color: teal;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
