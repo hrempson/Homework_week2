@@ -43,6 +43,13 @@ body .container {
   max-height: 90px;
 }
 
+.fa, .fab, .fal, .far, .fas {
+  font-size: xx-large;
+  color: black;
+}
+
+
+
 .githubicon {
   margin-left: 20px;
   margin-top: 20%;
