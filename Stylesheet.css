@@ -46,9 +46,13 @@ body .container {
 .fa, .fab, .fal, .far, .fas {
   font-size: xx-large;
   color: black;
+  text-align: center;
 }
 
-
+.icons {
+  text-align: center;
+  display: block;
+}
 
 .githubicon {
   margin-left: 20px;
