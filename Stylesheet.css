@@ -1,0 +1,146 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background: url('https://unsplash.com/photos/sKJ7zSylUao/download?force=true') no-repeat center center fixed;
+  background-size: cover;
+}
+
+body .container {
+  background-color: teal;
+  border: teal;
+  margin: -.5rem;
+  width: auto;
+  margin-left: 3%;
+}
+
+.custom-collapse {
+  margin-right: 3%;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin: 0rem;
+  color: white !important;
+  font-weight: bold;
+}
+
+.heather-nav {
+  display: inline !important;
+  margin: 10px;
+}
+
+.linkedin {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.github {
+  margin: auto;
+  max-width: 90px;
+  max-height: 90px;
+}
+
+.fa, .fab, .fal, .far, .fas {
+  font-size: xx-large;
+  color: black;
+  text-align: center;
+}
+
+.icons {
+  text-align: center;
+  display: block;
+}
+
+i:hover {
+  color: blue;
+}
+i:visited {
+  color:blueviolet
+}
+
+
+.githubicon {
+  margin-left: 20px;
+  margin-top: 20%;
+}
+.badges {
+  display: block
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.githubbtn {
+  margin-left: 0px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: teal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  padding: 0px;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.img-thumbnail,
+col-md-6 {
+  max-width: 200px;
+  height: 200px;
+  float: left;
+  margin-bottom: 20px;
+  
+}
+.imagetxt {
+  position: absolute;
+  background-color: teal;
+  color: white;
+  width: 200px;
+  text-align: center;
+  top: ;
+}
+
+#profimg {
+  width: 25%;
+  max-width: 200px;
+  height: 300px;
+  float: left;
+}
+
+footer {
+  text-align: center;
+  background-color: grey;
+  border-top: teal 5px solid;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+  font-size: smaller;
+}
+
+@media screen and (max-width: 780px) {
+  .navbar-brand {
+    margin: 0 auto;
+  }
+
+  body .container {
+    background-color: teal;
+    border: teal;
+    margin: 0;
+    width: 100%;
+  }
+
+  .custom-collapse {
+    text-align: center;
+    margin: auto;
+  }
+
+  #profimg {
+    width: 100%;
+  }
+}
