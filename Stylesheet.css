@@ -131,9 +131,13 @@ footer {
   padding-bottom: 40px;
   color: white;
   font-size: smaller;
-  position: absolute;
+  position: relative;
   width: 100%;
 }
+.footer {
+  position: relative;
+}
+
 
 @media screen and (max-width: 780px) {
   .navbar-brand {
