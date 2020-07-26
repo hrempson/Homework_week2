@@ -61,13 +61,24 @@ i:visited {
   color:blueviolet
 }
 
+/* .herokuicon {
+    margin-left: 20px;
+    margin-top: 20%;
+  } */
 
-.githubicon {
+  .icons {
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-left: 5%;
+}
+
+/* .githubicon {
   margin-left: 20px;
   margin-top: 20%;
-}
+} */
 .badges {
-  display: block
+  display: block;
   margin-left: auto;
   margin-right: auto;
 
@@ -103,7 +114,6 @@ col-md-6 {
   color: white;
   width: 200px;
   text-align: center;
-  top: ;
 }
 
 #profimg {
@@ -121,6 +131,8 @@ footer {
   padding-bottom: 40px;
   color: white;
   font-size: smaller;
+  position: absolute;
+  width: 100%;
 }
 
 @media screen and (max-width: 780px) {
